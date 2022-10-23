@@ -40,6 +40,11 @@ gem "bootsnap", require: false
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 gem "rack-cors"
 
+# Devise for handle sessions and users
+gem 'devise'
+gem 'devise-jwt'
+gem 'dotenv-rails', groups: [:development, :test]
+
 # Use faker to get some seeds
 gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'main'
 
